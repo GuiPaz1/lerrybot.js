@@ -29,11 +29,11 @@ run: async (bot, message, args) => {
 if(message.content.toLowerCase() === `${prefix}image`){
     var log = new Discord.MessageEmbed()
     .setColor(`#060606`)
-    .setAuthor("♨ - Image commands panel")
+    .setAuthor("♨ - Image Commands")
     
     .setThumbnail("https://cdn.discordapp.com/emojis/829385326781923368.gif?v=1")
 
-    .setDescription (`My Prefix In This Server is \`${prefix}\``)
+    .setDescription (`My prefix in this server is \`${prefix}\``)
     
    .addField(`ㅤ`, "`triggered`|`delete`|`rip`|`jail`|`captcha`|`wideavatar`|`toilet`|`wa`|`clyde`|`wasted`|`effect`|`tweet`|`minecraft`|`blur`|`beautiful`|`catsay`|`cowsay`|`fliptext`")
 

@@ -11,7 +11,7 @@ run: async(client, message, args) => { //embed do painel inicial
     .setThumbnail(message.author.displayAvatarURL())
     .setDescription(`See my commands:
 
-\n🏡 Back \n💰 Economy \n⚙ Moderation \n🎮 Games \n👑 Setup and Util \n \n [Add me to you server!](https://discord.com/api/oauth2/authorize?client_id=876089120651358229&permissions=8&scope=bot) \n [Support Server](https://discord.gg/YZBNcdUe3A)`, true)
+\n🏡 Home \n💰 Economy \n⚙ Moderation \n🎮 Games \n👑 Setup and Util \n \n [Add me to your server!](https://discord.com/api/oauth2/authorize?client_id=876089120651358229&permissions=8&scope=bot) \n [Support](https://discord.gg/YZBNcdUe3A)`, true)
     .setFooter(`${message.author.tag}`)
     .setColor("#0f1e28")    
     message.channel.send(`${message.author}`, embed).then(msg => {
@@ -41,7 +41,7 @@ run: async(client, message, args) => { //embed do painel inicial
       .setThumbnail(message.author.displayAvatarURL())
       .setDescription(`See my commands:
 
-\n🏡 Back \n💰 Economy \n⚙ Moderation \n🎮 Games \n👑 Setup and Util \n \n [Add me to you server!](https://discord.com/api/oauth2/authorize?client_id=876089120651358229&permissions=8&scope=bot) \n [Support Server](https://discord.gg/YZBNcdUe3A)`, true)
+\n🏡 Home \n💰 Economy \n⚙ Moderation \n🎮 Games \n👑 Setup and Util \n \n [Add me to your server!](https://discord.com/api/oauth2/authorize?client_id=876089120651358229&permissions=8&scope=bot) \n [Support](https://discord.gg/YZBNcdUe3A)`, true)
       .setFooter(`${message.author.tag}`)
       .setColor("#0f1e28")   
         

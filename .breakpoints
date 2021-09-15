@@ -3,9 +3,9 @@
     "commands/economy/profile.js": [
       {
         "id": "0c2a2336-92ef-407a-af57-729d3b4024c7",
-        "line": 133,
-        "version": 3,
-        "index": 3601
+        "line": 87,
+        "version": 211,
+        "index": 4478
       }
     ]
   }

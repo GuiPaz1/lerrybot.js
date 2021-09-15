@@ -30,13 +30,13 @@ if(message.content.toLowerCase() === `${prefix}invite`){
     .setColor(`#dcf104`)
     .setAuthor(`${bot.user.username} `)
       .setThumbnail(bot.user.displayAvatarURL())   
-    .setDescription(`👑 Add me to you server!
+    .setDescription(`👑 Add me!
 
 📨 [Invite](https://discord.com/oauth2/authorize?client_id=876089120651358229&permissions=8&scope=bot)
 
-<a:manutencaolerry:884478589582581790> [Support Server](https://discord.gg/hFdeJQRmHF)
+<a:manutencaolerry:884478589582581790> [Support](https://discord.gg/hFdeJQRmHF)
 
-<a:discord_gira:884518701016174632> [My Owner's Server](https://discord.gg/hefZrYfTc9)`,true)
+<a:discord_gira:884518701016174632> [Owner's Server](https://discord.gg/hefZrYfTc9)`,true)
 
 message.channel.send(log);
 }

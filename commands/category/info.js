@@ -29,11 +29,11 @@ run: async (bot, message, args) => {
 if(message.content.toLowerCase() === `${prefix}info`){
     var log = new Discord.MessageEmbed()
     .setColor(`#060606`)
-    .setAuthor("♨ - Info's commands panel")
+    .setAuthor("♨ - Info Commands")
     
     .setThumbnail("https://cdn.discordapp.com/emojis/746945574993002508.gif?v=1")
 
-    .setDescription (`My Prefix In This Server is \`${prefix}\``)
+    .setDescription (`My prefix in this server is \`${prefix}\``)
     
    .addField(`ㅤ`, "`channelinfo`|`roleinfo`|`userinfo`")
 

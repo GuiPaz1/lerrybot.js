@@ -29,7 +29,7 @@ run: async (bot, message, args) => {
 if(message.content.toLowerCase() === `${prefix}moderation`){
     var log = new Discord.MessageEmbed()
     .setColor(`#060606`)
-    .setAuthor("🔧- Help Moderation")
+    .setAuthor("🔧- Moderation Commands")
     
     .setThumbnail("https://images-ext-1.discordapp.net/external/KqFp7UUIzTjNzHExkTkQ4ZBcXXpI7JDlWGXNZqhrMGc/https/cdn.discordapp.com/emojis/853790985481879563.gif")
     

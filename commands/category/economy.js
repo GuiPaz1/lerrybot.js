@@ -29,11 +29,11 @@ run: async (bot, message, args) => {
 if(message.content.toLowerCase() === `${prefix}economy`){
     var log = new Discord.MessageEmbed()
     .setColor(`#060606`)
-    .setAuthor("⚒️ - economy commands")
+    .setAuthor("⚒️ - Economy Commands")
     
     .setThumbnail("https://cdn.discordapp.com/emojis/853140080276144138.gif?v=1")
 
-    .setDescription (`My Prefix In This Server is \`${prefix}\``)
+    .setDescription (`My prefix in this server is \`${prefix}\``)
     
    .addField(`ㅤ`, "`work` | `fish` | `rob` | `balance` | `profile` | `daily` | `pay` | `beg` |`buy` | `deposit` | `leaderboard` | `roulette` | `sell` | `setbackground` | `setinfo` | `slots` | `store` | `weekly` | `withdraw`")
 

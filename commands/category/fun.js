@@ -29,11 +29,11 @@ run: async (bot, message, args) => {
 if(message.content.toLowerCase() === `${prefix}fun`){
     var log = new Discord.MessageEmbed()
     .setColor(`#060606`)
-    .setAuthor("♨ - Commands Fun")
+    .setAuthor("♨ - Fun Commands")
     
     .setThumbnail("https://cdn.discordapp.com/emojis/866363351851860029.gif?v=1")
 
-    .setDescription (`My Prefix In This Server is \`${prefix}\``)
+    .setDescription (`My prefix in this server is \`${prefix}\``)
     
    .addField(`ㅤ`, "`kiss` | `hug` | `pat`  | `zaglo` | `slap` | `smug` | `tickle` | `poke` |`binary`  | `advice` | `scroll`")
 
