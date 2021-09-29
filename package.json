@@ -23,7 +23,7 @@
     "config.js": "^0.1.0",
     "dblapi.js": "^2.4.1",
     "discord-anti-alt": "^1.1.0",
-    "discord-buttons": "^1.0.3-beta",
+    "discord-buttons": "^1.0.4",
     "discord-image-generation": "^1.4.9",
     "discord-player": "^4.0.5",
     "discord-reply": "^0.1.2",

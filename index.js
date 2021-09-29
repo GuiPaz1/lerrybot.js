@@ -17,7 +17,6 @@ const fs = require('fs')
 const db = require('quick.db');
 
 
-
 client.on("guildMemberAdd",  async (member) => {
   let ferinha_autorole = db.get(`ferinha_autorole_${member.guild.id}`);
   if (!ferinha_autorole === null) return;
@@ -48,12 +47,9 @@ fs.readdir("./commands/", (err, files) => {
   });
 });
 
-
 client.on("message", async message => {
 
-    if(message.author.bot) return;
-    if (message.channel.type == 'dm') return;
-    
+
     const prefix = ")"
     
     if(!message.content.startsWith(prefix)) return;
@@ -69,10 +65,10 @@ client.on("message", async message => {
     message.channel.send(`:x: **| The command ${command} does not exist!**`)
 });
 
+
 client.on("ready", () => {
   let activities = [
-      `)help`,
-      `lerrybot.repl.co`
+      `Desculpe.. / Sorry..`
     ],
     i = 0;
   setInterval( () => client.user.setActivity(`${activities[i++ % activities.length]}`, {
@@ -86,27 +82,27 @@ console.log("Status Online!")
 
 client.on("message", message => {
   if (message.author.bot) return;
-  if (message.channel.type == 'mençao')
+  if (message.channel.type == 'mencao')
     return
   if (message.content == `<@${client.user.id}>` || message.content == `<@!${client.user.id}>`) {
     let Prefix = db.get(`prefix_${message.guild.id}`)
     if (Prefix == null) Prefix = ")";
 
-    return message.channel.send(`Oii! Meu prefixo nesse servidor é \`${Prefix}\`, para ver meus comandos digite \`${Prefix}help\` `).then;
+    return message.channel.send(`Hii! My prefix in this server is \`${Prefix}\`, to see my commands type \`${Prefix}help\` `).then;
   }
 });
 
 client.on("message", message => {
   if (message.author.bot) return;
-  if (message.channel.type == ')ajuda')
-    return
+  if (message.channel.type == 'mencao')
   if (message.content == `<@${client.user.id}>` || message.content == `<@!${client.user.id}>`) {
     let Prefix = db.get(`prefix_${message.guild.id}`)
     if (Prefix == null) Prefix = ")";
 
-    return message.channel.send(`Oii! Meu prefixo nesse servidor é \`${Prefix}\`, para ver meus comandos digite \`${Prefix}help\` `).then;
+    return message.channel.send(`Hii! My prefix in this server is \`${Prefix}\`, to see my commands type \`${Prefix}help\` `).then;
   }
 });
 
 
-client.login(process.env.TOKEN)//
+
+client.login(process.env.TOKEN)// 

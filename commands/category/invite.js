@@ -27,12 +27,10 @@ run: async (bot, message, args) => {
 
 if(message.content.toLowerCase() === `${prefix}invite`){
     var log = new Discord.MessageEmbed()
-    .setColor(`#dcf104`)
+    .setColor(`#0f1e28`)
     .setAuthor(`${bot.user.username} `)
       .setThumbnail(bot.user.displayAvatarURL())   
-    .setDescription(`👑 Add me!
-
-📨 [Invite](https://discord.com/oauth2/authorize?client_id=876089120651358229&permissions=8&scope=bot)
+    .setDescription(`📨 [Invite](https://discord.com/api/oauth2/authorize?client_id=888501028943716352&permissions=8&scope=bot)
 
 <a:manutencaolerry:884478589582581790> [Support](https://discord.gg/hFdeJQRmHF)
 
